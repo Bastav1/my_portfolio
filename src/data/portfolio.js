@@ -4,7 +4,7 @@ export const profile = {
   lastName: "Podder",
   role: "Full-Stack Developer & Systems Programmer",
   tagline: "I build fast, real-time web experiences — and the systems underneath them.",
-  location: "Bangalore, India",
+  location: "Kolkata, India",
   email: "bastavpoddar1234@gmail.com",
   phone: "+91 96410 90531",
   github: "https://github.com/Bastav1",
