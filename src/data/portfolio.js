@@ -143,3 +143,18 @@ export const timeline = [
     place: "",
   },
 ];
+
+export const quotes = [
+  {
+    text: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+    author: "Martin Fowler",
+  },
+  {
+    text: "Simplicity and elegance are unpopular because they require hard work and discipline to achieve.",
+    author: "Edsger W. Dijkstra",
+  },
+  {
+    text: "Make it work, make it right, make it fast.",
+    author: "Kent Beck",
+  },
+];

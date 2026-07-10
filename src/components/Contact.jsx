@@ -18,7 +18,7 @@ export default function Contact() {
   return (
     <section id="contact" ref={rootRef} className="bg-dark text-cream">
       <div className="mx-auto max-w-7xl px-6 py-28 md:px-10 md:py-36">
-        <SectionHeading eyebrow="05 / Contact" title="Let's Talk" dark />
+        <SectionHeading eyebrow="06 / Contact" title="Let's Talk" dark />
 
         <div data-contact-reveal className="max-w-2xl">
           <p className="font-display text-[clamp(1.75rem,4vw,3rem)] leading-snug text-cream">

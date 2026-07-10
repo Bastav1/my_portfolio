@@ -9,6 +9,7 @@ import Stats from "./components/Stats.jsx";
 import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
 import Journey from "./components/Journey.jsx";
+import Quotes from "./components/Quotes.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import { initSmoothScroll, stopScroll, startScroll } from "./lib/smoothScroll.js";
@@ -52,6 +53,7 @@ export default function App() {
         <Projects />
         <Skills />
         <Journey />
+        <Quotes />
         <Contact />
       </main>
 
