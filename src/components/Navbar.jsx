@@ -44,13 +44,14 @@ export default function Navbar() {
 
   const goTo = (href) => {
     setMenuOpen(false);
+    startScroll();
     scrollToSection(href);
   };
 
   return (
     <div ref={rootRef}>
       <header
-        className={`fixed inset-x-0 top-0 z-[300] transition-all duration-300 ${
+        className={`fixed inset-x-0 top-0 z-[500] transition-all duration-300 ${
           scrolled ? "border-b border-line bg-paper/85 backdrop-blur-md" : "border-b border-transparent bg-transparent"
         }`}
       >
