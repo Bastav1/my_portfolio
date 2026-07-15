@@ -82,8 +82,13 @@ export default function Navbar() {
             ))}
           </div>
 
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-4 md:gap-5">
             <SocialLinks className="hidden items-center gap-4 md:flex" />
+            <SocialLinks
+              className="flex items-center gap-3 md:hidden"
+              iconClassName="h-[17px] w-[17px]"
+              linkClassName="text-ink/70 transition-colors hover:text-accent-dark"
+            />
 
             <span className="hidden h-5 w-px bg-line md:block" />
 

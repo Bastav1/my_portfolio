@@ -30,7 +30,7 @@ export default function Contact() {
           href={`mailto:${profile.email}`}
           data-contact-reveal
           data-cursor="Email"
-          className="group relative mt-10 inline-block font-display text-[clamp(1.75rem,6vw,4.5rem)] text-cream"
+          className="group relative mt-10 inline-block break-all font-display text-[clamp(1.5rem,6vw,4.5rem)] text-cream"
         >
           {profile.email}
           <span className="absolute inset-x-0 -bottom-1 h-[2px] origin-left scale-x-0 bg-accent transition-transform duration-500 ease-out group-hover:scale-x-100 md:h-[3px]" />

@@ -14,14 +14,14 @@ export default function SectionHeading({ eyebrow, title, dark = false }) {
   );
 
   return (
-    <div ref={ref} className="mb-14 flex items-end justify-between gap-6 md:mb-20">
+    <div ref={ref} className="mb-14 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-6 md:mb-20">
       <h2
-        className={`font-display text-[clamp(2rem,6vw,4.5rem)] leading-[1] ${dark ? "text-cream" : "text-ink"}`}
+        className={`min-w-0 font-display text-[clamp(2rem,8vw,4.5rem)] leading-[1] ${dark ? "text-cream" : "text-ink"}`}
       >
         <SplitWords text={title} />
       </h2>
       <span
-        className={`mb-2 whitespace-nowrap font-mono text-xs uppercase tracking-[0.2em] ${
+        className={`whitespace-nowrap font-mono text-xs uppercase tracking-[0.2em] sm:mb-2 ${
           dark ? "text-accent" : "text-accent-dark"
         }`}
       >
